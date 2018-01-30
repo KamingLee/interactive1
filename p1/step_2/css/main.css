@@ -4,7 +4,36 @@
 }
 .v1 {
 	transform: rotate(180deg);
-	postition:absolute;
+	position:absolute;
 	top:140px;
 	right:50px;
+}
+
+#v2 {
+
+}
+.v2 {
+	transform: rotate(90deg);
+}
+
+#v3{
+
+}
+.var1{
+	transform: rotate(10deg);
+}
+.var2{
+	transform: rotate(130deg);
+}
+.var3{
+	transform: rotate(200deg);
+}
+#v4{
+
+}
+.vv1 {
+	transform: rotate(180deg);
+	position:absolute;
+	top:30px;
+	right:510px;
 }
