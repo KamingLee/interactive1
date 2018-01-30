@@ -37,3 +37,30 @@
 	top:30px;
 	right:510px;
 }
+#v5{
+
+}
+.vv2{
+	transform: rotate(10deg);
+	position:absolute;
+	top:30px;
+	right:830px;
+}
+.vv3{
+	transform: rotate(30deg);
+	position:absolute;
+	top:30px;
+	right:830px;
+}
+.vv4{
+	transform: rotate(20deg);
+	position:absolute;
+	top:30px;
+	right:830px;
+}
+.vv5{
+	transform: rotate(50deg);
+	position:absolute;
+	top:30px;
+	right:630px;
+}
