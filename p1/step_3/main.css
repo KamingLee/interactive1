@@ -7,6 +7,9 @@
 	position:absolute;
 	top:140px;
 	right:50px;
+	color:green;
+	font-family: form;
+	font-size: 200px
 }
 
 #v2 {
@@ -14,6 +17,9 @@
 }
 .v2 {
 	transform: rotate(90deg);
+	background-color: black;
+	color: blue;
+	font-family: futura;
 }
 
 #v3{
@@ -21,23 +27,35 @@
 }
 .var1{
 	transform: rotate(10deg);
+	color: red;
+	font-family: helvetica;
+	font-size: 6px
 }
 .var2{
 	transform: rotate(130deg);
 	float: right;
+	color: red;
+	background-color: Pink;
+	font-family: helvetica;
+	font-size: 4px
 }
 .var3{
 	transform: rotate(200deg);
+	color: red;
+	background-color: Pink;
+	font-family: helvetica;
+	font-size: 6px
 }
 #v4{
 
 }
 .vv1 {
-	transform: rotate(180deg);
+	transform: rotate(50deg);
 	position:absolute;
-	top:30px;
-	right:510px;
+	
 	font-size: 6px;
+	background-color: purple;
+	font-family: helvetica;
     margin: auto;
 }
 #v5{
@@ -48,22 +66,31 @@
 	position:absolute;
 	top:30px;
 	right:830px;
+	font-family: bodoni;
+	
 }
 .vv3{
 	transform: rotate(30deg);
 	position:absolute;
 	top:30px;
 	right:830px;
+	font-family: bodoni;
+
+
 }
 .vv4{
 	transform: rotate(20deg);
 	position:absolute;
 	top:30px;
 	right:830px;
+	font-family: bodoni;
+	
 }
 .vv5{
 	transform: rotate(50deg);
 	position:absolute;
 	top:30px;
 	right:630px;
+	font-family: bodoni;
+
 }
