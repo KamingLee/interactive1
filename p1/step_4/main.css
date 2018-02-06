@@ -1,0 +1,21 @@
+/* v1 */
+*{
+
+}
+.v1 {
+	position:absolute;
+	top:-166px;
+	right:50px;
+	color:green;
+	font-family: form;
+	font-size: 200px;
+src: url('Form.otf');
+
+	text-align: right;
+}
+.v2{
+	position: center;
+	position: fixed;
+	font-size: 10px;
+
+}
