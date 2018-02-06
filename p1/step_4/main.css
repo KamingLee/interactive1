@@ -4,9 +4,7 @@
 }
 @font-face {
 	src: 
-	local('Form'),
-	local('Form'),
-	url('CCA/Interactive1/interactive1/p1/step_4/Form.otf') 
+	local('CCA/Interactive1/interactive1/p1/step_4/Form.otf'),
 	format('opentype');
 }
 .v1 {
