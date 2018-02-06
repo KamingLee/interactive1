@@ -2,6 +2,13 @@
 *{
 
 }
+@font-face {
+	src: 
+	local('Form'),
+	local('Form'),
+	url('form.otf') 
+	format('opentype');
+}
 .v1 {
 	position:absolute;
 	top:-166px;
@@ -9,7 +16,6 @@
 	color:green;
 	font-family: form;
 	font-size: 200px;
-src: url('Form.otf');
 
 	text-align: right;
 }
