@@ -2,18 +2,12 @@
 *{
 
 }
-@font-face {
-	font-family: 'Form';
-	src: 
-	local('CCA/Interactive1/interactive1/p1/step_4/Form.otf'),
-	format('opentype');
-}
 .v1 {
 	position:absolute;
 	top:-166px;
 	right:50px;
 	color:green;
-	font-family: form;
+	font-family: 'Libre Barcode 39', cursive;
 	font-size: 200px;
 
 	text-align: right;
@@ -22,5 +16,3 @@
 	position: center;
 	position: fixed;
 	font-size: 10px;
-
-}
