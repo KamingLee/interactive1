@@ -4,8 +4,11 @@
 }
 
 body { 
-	min-height: 100vh;
-	min-width: 100vw;
+	
+}
+
+.bigcontainer{
+    width: 100%;
 }
 
 body{
@@ -21,6 +24,294 @@ body{
     margin:-3em;
 }
 
+.container1{
+    position: absolute;
+    height: 100px;
+    width: auto;
+}
+
+.container2{
+    position: absolute;
+    height: 100px;
+    width: auto;
+}
+
+.m1{
+   left: 300px;
+   top: 200px;
+   background-color: blue;
+}
+
+.m2{
+   left: 100px;
+   top: 250px;
+   background-color: yellow;
+}
+
+.m3{
+   left: 140px;
+   top: 500px;
+   background-color: red;
+}
+
+
+.leftalign1{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+
+.center{
+
+    position: absolute;
+    width: 33.3%;
+    left: 33.3%;
+    top: 20%;
+}
+
+.m1after{
+    left: 40px;
+    top: 50px;
+}
+
+.m2after{
+    left: 100px;
+    top: 50px;
+}
+
+.m3after{
+    left: 170px;
+    top: 50px;
+}
+
+.m4after{
+    left: 100px;
+    top: 150px;
+}
+
+.m5after{
+    left: 30px;
+    top: 200px;
+}
+
+.m6after{
+    left: 100px;
+    top: 200px;
+}
+.m7after{
+    left: 170px;
+    top: 200px;
+}
+.m8after{
+    left: 100px;
+    top: 250px;
+}
+.m9after{
+    left: 100px;
+    top: 300px;
+}
+.m10after{
+    left: 100px;
+    top: 350px;
+}
+.m11after{
+    left: 100px;
+    top: 400px;
+}
+.m12after{
+    left: 60px;
+    top: 255px;
+}
+.m13after{
+    left: 40px;
+    top: 305px;
+}
+.m14after{
+    left: 30px;
+    top: 355px;
+}
+.m16after{
+    left: 160px;
+    top: 295px;
+}
+.m17after{
+    left: 140px;
+    top: 255px;
+}
+.m18after{
+    left: 240px;
+    top: 200px;
+}
+.m19after{
+    left: 240px;
+    top: 250px;
+}
+.m20after{
+    left: 240px;
+    top: 300px;
+}
+
+.m21after{
+    left: 290px;
+    top: 50px;
+}
+
+.m22after{
+    left: 340px;
+    top: 200px;
+}
+.m23after{
+    left: 340px;
+    top: 250px;
+}
+.m24after{
+    left: 340px;
+    top: 300px;
+}
+.m25after{
+    left: 290px;
+    top: 400px;
+}
+.m26after{
+    left: 440px;
+    top: 200px;
+}
+.m27after{
+    left: 490px;
+    top: 200px;
+}
+.m28after{
+    left: 540px;
+    top: 200px;
+}
+.m29after{
+    left: 590px;
+    top: 200px;
+}
+.m30after{
+    left: 640px;
+    top: 200px;
+}
+.m31after{
+    left: 490px;
+    top: 50px;
+}
+.m32after{
+    left: 540px;
+    top: 50px;
+}
+.m33after{
+    left: 590px;
+    top: 50px;
+}
+.m34after{
+    left: 540px;
+    top: 150px;
+}
+.m35after{
+    left: 540px;
+    top: 200px;
+}
+.m36after{
+    left: 540px;
+    top: 250px;
+}
+.m37after{
+    left: 540px;
+    top: 300px;
+}
+.m38after{
+    left: 540px;
+    top: 350px;
+}
+.m39after{
+    left: 540px;
+    top: 400px;
+
+}
+.m40after{
+    left: 100px;
+    top: 100px;
+}
+.m41after{
+    left: 540px;
+    top: 100px;
+}
+.m42after{
+    left: 490px;
+    top: 140px;
+}
+.m43after{
+    left: 470px;
+    top: 100px;
+}
+.m44after{
+    left: 610px;
+    top: 100px;
+}
+.m45after{
+    left: 590px;
+    top: 140px;
+}
+.m46after{
+    left: 640px;
+    top: 50px;
+
+}
+.m47after{
+    left: 440px;
+    top: 50px;
+
+}
+.m48after{
+    left: 240px;
+    top: 50px;
+
+}
+.m49after{
+    left: 240px;
+    top: 100px;
+
+}
+.m50after{
+    left: 240px;
+    top: 150px;
+
+}
+.m51after{
+    left: 340px;
+    top: 150px;
+
+}
+.m52after{
+    left: 340px;
+    top: 100px;
+
+}
+.m53after{
+    left: 340px;
+    top: 50px;
+
+}
+.m54after{
+    left: 340px;
+    top: 350px;
+}
+.m55after{
+    left: 340px;
+    top: 400px;
+}
+.m56after{
+    left: 240px;
+    top: 400px;
+}
+.m57after{
+    left: 240px;
+    top: 350px;
+}
 /*toggle-icon*/
 .toggle-icon {
     display: block;
