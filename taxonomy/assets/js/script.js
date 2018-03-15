@@ -3,21 +3,16 @@ $(document).ready(function(){
 	$(".toggle-icon").click(function() {
 	  $('.nav-container').toggleClass("pushed");
 	});
-
 	$(".m1").click(function() {
 	  $('.container1').toggleClass("leftalign1");
 	  $('.container2').toggleClass("leftalign1");
 	});
-
-
 	$(".m2").click(function() {
-	  $('.bigcontainer').addClass("center");
-      $('.container1').addClass("leftalign1");
-	  $('.container2').addClass("leftalign1");
+	  $('.bigcontainer').toggleClass("center");
+      $('.container1').toggleClass("leftalign1");
+	  $('.container2').toggleClass("leftalign1");
     
 	});
-
-
 	$(".m3").click(function() {
 	  $('.bigcontainer').toggleClass("center");
 	  $('.m1').toggleClass("m1after");
@@ -81,9 +76,37 @@ $(document).ready(function(){
       $('.m59').toggleClass("m59after");
   });
 
+	var playmusic = document.getElementById("playmusic");
+	var isPlaying = false;
 
+	function togglePlay(){
+			if (isPlaying) {
+				playmusic.pause()	
+			} else {
+				playmusic.play();
+			}
+	};
+	 playmusic.onplaying = function() {
+	 	isPlaying = true;
+	 }
+	 playmusic.onpause = function() {
+	 isPlaying = false;
+	 }
+
+	 $('.m4').click(function() {
+	 	togglePlay();
+	 })
+
+	 $(".m5").click(function(){
+	 	$(".ham").addClass("appear");
+	 })
+
+	 $(".ham").click(function(){
+	 	$(this).removeClass("appear");
+	 })
 
 
 });
+
 
 /*** starwars.com's Toggle Icon Animation ***/

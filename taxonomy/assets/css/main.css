@@ -36,23 +36,36 @@ body{
     width: auto;
 }
 
+
 .m1{
-   left: 300px;
+   left: 100px;
    top: 200px;
-   background-color: blue;
+   background color:red;
 }
 
 .m2{
    left: 100px;
-   top: 250px;
-   background-color: yellow;
+   top: 300px;
+   background color:green ;
 }
 
 .m3{
-   left: 140px;
-   top: 500px;
-   background-color: red;
+   left: 100px;
+   top: 400px;
+   background color:blue ;
 }
+
+.m4{
+   left: 100px;
+   top: 500px;
+   background color:blue ;
+}
+.m5{
+   left: 100px;
+   top: 600px;
+   background color:blue ;
+}
+
 
 
 .leftalign1{
@@ -390,3 +403,21 @@ body{
     border-right-color: #ddf1da;
     box-shadow: 0.4em 0 0.6em 0.1em rgba(83,228,68,0.65);
 }
+
+.ham{
+    display:none;
+    width:100vw;
+    position:fixed;
+    margin-left:-7vw;
+    margin-top:-13vh;
+}
+
+.appear{
+    display:block;
+    cursor:pointer;
+}
+
+
+
+
+
