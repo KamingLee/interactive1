@@ -1,0 +1,45 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	background: black;
+}
+#desktop{
+	opacity: 1;
+	color: black;
+}
+
+#tablet, #mobile, #print {
+	opacity: 0;
+}
+
+/* iPhone 6 */
+@media (min-width: 375px) and (max-width: 667px) { 
+	
+	body {
+		background: white;
+	}
+
+	#mobile{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #print {
+		opacity: 0;
+	}
+}
+
+/* print */
+@media print {
+	
+	body {
+		background: white;
+	}
+
+	#print{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #mobile {
+		opacity: 0;
+	}
+}
