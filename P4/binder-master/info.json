@@ -1,0 +1,14 @@
+{
+	"title": "Binder",
+	"logo" : "logo.png",
+	"about" : "The Asian's Safeway",
+	"menu" : {
+		"About" : "https://www.99ranch.com/about-us",
+		"Shop" : "https://www.99ranch.com/monthly-markdowns",
+		"PDF" : "https://www.99ranch.com/img/AdminAdded/grouppdf/20180417093727321CA.pdf",
+		"Youtube" : "https://www.youtube.com/embed/ig3yrzT13jg",
+		"Wikipedia" : "https://en.wikipedia.org/wiki/99_Ranch_Market",
+		"The New Chinatown" : "https://docs.google.com/document/d/1iK8lupbKSOt6mwPIlCER_zczeqB9ec_DT-lzVCOKVdw/edit?usp=sharing",
+		"Feedback" : "https://www.yelp.com/biz/99-ranch-market-daly-city-3?sort_by=rating_asc"
+	}
+}
